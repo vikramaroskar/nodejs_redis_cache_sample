@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_redis_cache_sample",
+  "version": "1.0.0",
+  "description": "nodejs_redis_cache_sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikramaroskar/nodejs_redis_cache_sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikramaroskar/nodejs_redis_cache_sample/issues"
+  },
+  "homepage": "https://github.com/vikramaroskar/nodejs_redis_cache_sample#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
